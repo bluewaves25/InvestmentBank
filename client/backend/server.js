@@ -89,6 +89,9 @@ const bankListRoute = require("./routes/bankListRoute/bankListRoute")
 // ================================
 // ROUTE MOUNTING
 // ================================
+app.get("/", (req, res) => {
+  res.send("Client Backend API is running...");
+});
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/wallet", walletRoutes);
