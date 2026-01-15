@@ -4,6 +4,34 @@ This folder contains the complete system for Summit Investment Bank. It is divid
 
 ---
 
+## 🌐 Live Deployment URLs
+
+| Application | URL |
+|------------|-----|
+| **Admin Frontend** | [https://investment-bank-admin.vercel.app](https://investment-bank-admin.vercel.app) |
+| **Admin Backend** | [https://investment-bank-admin.onrender.com](https://investment-bank-admin.onrender.com) |
+| **Client Frontend** | [https://investment-bank-ten.vercel.app](https://investment-bank-ten.vercel.app) |
+| **Client Backend** | [https://investmentbankinvestment-bank-client.onrender.com](https://investmentbankinvestment-bank-client.onrender.com) |
+
+---
+
+## 🔐 Test Credentials
+
+### MongoDB Atlas
+- **Connection String**: `mongodb+srv://admin:kwCuV3xAf2caW4bv@cluster0.mnzo3ze.mongodb.net/?appName=Cluster0`
+- **Database User**: `admin`
+- **Password**: `kwCuV3xAf2caW4bv`
+
+### Admin Login
+> ⚠️ You need to create an admin user first via the database or API
+
+### Cloudinary (for image uploads)
+- **Cloud Name**: `dbraw3s3p`
+- **API Key**: `576299459678115`
+- **API Secret**: `K4STiGlPr9YQkejUTDxEEG_CmUw`
+
+---
+
 ## 1. Client Project (`/client`)
 This is the main website that customers use.
 *   **Backend**: The brain of the app. It handles security and saves data like user profiles and bank accounts.
